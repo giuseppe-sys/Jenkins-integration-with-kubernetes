@@ -1,5 +1,5 @@
 pipeline {
-
+  agent any
   environment {
     dockerimagename = "luseec/nodeapp"
     dockerImage = ""
