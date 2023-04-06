@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-    dockerimagename = "arognetta/nodeapp"
+    dockerimagename = "luseec/nodeapp"
     dockerImage = ""
   }
 
@@ -11,7 +11,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git 'https://github.com/AndRogJava/nodeapp_test.git'
+        git 'https://github.com/giuseppe-sys/nodeapp_test.git'
       }
     }
 
